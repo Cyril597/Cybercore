@@ -1,0 +1,78 @@
+#en-tête{background-color:#25283D;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+padding-left: 20%;
+}
+
+header h1{color:#ECECEC}
+
+nav{width: 60%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;}
+
+nav a {text-decoration: none;
+        color:#ECECEC}
+
+
+/**Fin du Header**/
+
+/**Debut du main**/
+
+
+#Accueil {background-image: url('../Image/cyber.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:#ECECEC;
+        padding-top:8%;
+        }
+
+#Accueil header{width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 20%;
+                }
+
+#Accueil main{background:linear-gradient(to top, rgba(50,50,50,0.9),rgba(50,50,50,0.8),rgba(50,50,50,0.6),rgba(0,0,0,0))}
+
+#Accueil header h2 {margin: 0%;}
+
+#Accueil #newsletter{background-color: #25283D;
+                padding: 1%;
+                width: 60%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;}
+
+ #Accueil #newsletter div {width: 40%;}
+
+ #Accueil #newsletter div input {height: 25%;
+                                width: 70%;
+                        }
+
+#Accueil #newsletter div button{ margin-top:5%;
+                                background-color:#2667FF ;
+                                color:#ECECEC;
+                                border:0px;
+                                width: 35%;
+                                height: 30%;
+}
+
+#Accueil #newsletter div:last-child {padding-top:5% ;}
+
+#chiffre{display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-top:4%;
+        margin-left: 12%;}
+
+#chiffre div {display: flex;
+                flex-direction: column;
+                align-items: center;}
+
+#chiffre div p:first-child{font-size: 4em;
+                        margin-bottom:0%;}
+#chiffre div p {font-size: 1.6em;}
